@@ -1,0 +1,48 @@
+---
+worlds:
+  - name: timehole
+    title: "timehole"
+    enabled: true
+    sendposition: true
+    sendhealth: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: default
+        background: "#9C59C5"
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: isonw30
+        title: "ISONW30"
+        perspective: iso_NW_30_hires
+        shader: stdtexture
+        lighting: nightandday-smooth
+        background: "#9C59C5"
+        mapzoomin: 3
+      - class: org.dynmap.hdmap.HDMap
+        name: isose30
+        title: "ISOSE30"
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: nightandday-smooth
+        background: "#9C59C5"
+        mapzoomin: 3
+      - class: org.dynmap.hdmap.HDMap
+        name: cavenw30
+        title: "CAVENW30"
+        perspective: iso_NW_30_hires
+        shader: cave
+        lighting: default
+        background: "#999999"
+        mapzoomin: 3
+      - class: org.dynmap.hdmap.HDMap
+        name: cavese30
+        title: "CAVESE30"
+        perspective: iso_SE_30_hires
+        shader: cave
+        lighting: default
+        background: "#999999"
+        mapzoomin: 3
